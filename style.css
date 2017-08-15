@@ -1,0 +1,8 @@
+body {
+    background-image: url("assets/fotolia_140591721.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
