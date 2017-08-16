@@ -3,6 +3,64 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    width: 100vw;
     height: 100vh;
+}
+
+/*.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}*/
+.navbar-brand {float:none;}
+
+/*.center {
+    display: flex;
+    justify-content: center;
+}
+
+.center h1 {
+    padding: 15px 5px;
+    border-radius: 20px;
+    background-color: rgba(102,51,153, 0.7);
+    text-transform: uppercase;
+}*/
+
+nav {
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    padding:0;
+}
+
+.navbar-brand img {
+    margin: 5px auto;
+}
+
+.navbar-toggle {
+    z-index:1;
+}
+
+.navbar-default , .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #009ca6;
+}
+
+.navbar-toggle {
+    border-width: 0px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
 }
