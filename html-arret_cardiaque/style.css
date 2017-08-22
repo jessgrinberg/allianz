@@ -36,6 +36,10 @@ h2, h4.text-uppercase {
     margin-top: 30px;
 }
 
+p.text-center {
+    color: #004d93;
+}
+
 .nice-ul {
 	position: relative;
 	padding-left: 32px;
