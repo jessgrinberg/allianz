@@ -29,6 +29,28 @@ body {
 
 .container {
     margin-bottom: 15px;
+    padding-top: 40px;
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+    background: #004d93;
+    margin: 0;
+    padding: 5px;
+    letter-spacing: 1.2px;
+    color: #FFF;
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
 }
 
 h2, h4.text-uppercase {
@@ -191,9 +213,29 @@ p.text-center {
     color: #fff;
 }
 
+.navbar-fixed-bottom {
+    border-width: 0px;
+}
+
+.video-icon {
+    z-index: 300;
+    position: absolute;
+    width: 60px;
+    top: 10px;
+    left: 10px;
+}
+
 
 @media (min-width: 415px) {
     .banner a.btn {
         max-width: 300px;
+    }
+}
+
+@media (max-width: 415px) {
+    .video-icon {
+        width: 30px;
+        top: 5px;
+        left: 5px;
     }
 }
