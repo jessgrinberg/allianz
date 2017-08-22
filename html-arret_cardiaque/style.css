@@ -19,6 +19,16 @@ body {
     background-position: center center;
     background-size: cover;
     margin-bottom: 50px;
+    font-family: Gotham-Book;
+}
+
+h2,h3,h4 {
+    font-family: Gotham-Medium;
+}
+
+
+h1 {
+    font-family: Gotham-Bold;
 }
 
 
@@ -96,10 +106,20 @@ p.text-center {
     margin-bottom: 0;
 }
 
+.nice-ul.bullet-small li::before ,
 .nice-ul.bullet li::before {
     content: "\2022" !important;
+}
+
+.nice-ul.bullet li::before{
     font-size: 36px;
     line-height: 18px;
+}
+
+
+.nice-ul.bullet-small li::before {
+    font-size: 26px;
+    line-height: 16px;
 }
 
 .nice-ul li:last-child::before {
