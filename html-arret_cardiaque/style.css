@@ -1,0 +1,192 @@
+@font-face {
+    font-family: Gotham-Bold;
+    src: url('fonts/Gotham-Bold.otf');
+}
+
+@font-face {
+    font-family: Gotham-Book;
+    src: url('fonts/Gotham-Book.otf');
+}
+
+@font-face {
+    font-family: Gotham-Medium;
+    src: url('fonts/Gotham-Medium.otf');
+}
+
+body {
+    background-image: url("assets/fotolia_140591721.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+
+.banner {
+    background-color: rgba(255,255,255,0.9);
+    padding: 10px;
+}
+
+.container {
+    margin-bottom: 15px;
+}
+
+h2, h4.text-uppercase {
+    color: #004d93;
+    margin-top: 30px;
+}
+
+.nice-ul {
+	position: relative;
+	padding-left: 32px;
+	list-style-type: none;
+}
+
+.nice-ul li {
+	margin-bottom: 8px;
+}
+
+.nice-ul li:not(:last-child)::before,
+.nice-ul li:last-child::before {
+	position: absolute;
+	left: 0;
+	padding: 2px 8px;
+	font-size: 1em;
+	color: #004d93;
+}
+
+.nice-ul.check li::before,
+.nice-ul li:not(:last-child)::before {
+    content: "\2713";
+}
+
+.nice-ul.check li:last-child::before {
+    content: "\2713";
+    margin-bottom: 0;
+}
+
+.nice-ul.bullet li::before {
+    content: "\2022" !important
+}
+
+.nice-ul li:last-child::before {
+	margin-bottom: 0;
+    content: "\25BA";
+}
+
+.nice-ol {
+	position: relative;
+	padding-left: 32px;
+	list-style-type: none;
+}
+.nice-ol li {
+	counter-increment: step-counter ;
+	margin-bottom: 8px;
+}
+.nice-ol li:last-child {
+	margin-bottom: 0;
+}
+.nice-ol li::before {
+	content: counter(step-counter) !important;
+	position: absolute;
+	left: 0;
+	padding: 3px 8px;
+	font-size: 0.8em;
+	color: white !important;
+	font-weight: bold;
+	background-color: #004d93;
+	border-radius: 3px;
+}
+
+
+.banner a.btn {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    margin: 20px auto;
+    background: rgba(0,0,0,1);
+    color: #fff;
+}
+
+.banner a.btn:hover {
+    background: rgba(0,0,0,.85);
+}
+
+
+
+.banner {
+    /*height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+/*.banner h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    background: rgba(0, 77, 147, 0.8 );
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Gotham-Bold;
+    margin: 60px 10px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.banner h3 {
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: Gotham-Book;
+    margin: 10px;
+}
+
+.banner h3 span{
+    font-family: Gotham-Medium;
+}*/
+
+.navbar-brand {float:none;}
+
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    padding:0;
+}
+
+.navbar-brand img {
+    margin: 5px auto;
+}
+
+.navbar-toggle {
+    z-index:1;
+}
+
+.navbar-default , .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #009ca6;
+}
+
+.navbar-toggle {
+    border-width: 0px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+
+@media (min-width: 415px) {
+    .banner a.btn {
+        max-width: 300px;
+    }
+}
