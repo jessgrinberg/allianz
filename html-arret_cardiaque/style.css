@@ -44,6 +44,7 @@ p.text-center {
 	position: relative;
 	padding-left: 32px;
 	list-style-type: none;
+    font-weight: 400;
 }
 
 .nice-ul li {
@@ -70,7 +71,9 @@ p.text-center {
 }
 
 .nice-ul.bullet li::before {
-    content: "\2022" !important
+    content: "\2022" !important;
+    font-size: 36px;
+    line-height: 18px;
 }
 
 .nice-ul li:last-child::before {
