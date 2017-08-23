@@ -51,6 +51,10 @@ h4.text-uppercase {
     line-height: 24px;
 }
 
+h4 {
+    font-size: 16px;
+}
+
 p.text-center {
     color: #004d93;
 }
@@ -194,8 +198,8 @@ header h1 {
 }
 
 .nice-ul.bullet li::before{
-    font-size: 36px;
-    line-height: 18px;
+    font-size: 32px;
+    line-height: 16px; 
 }
 
 

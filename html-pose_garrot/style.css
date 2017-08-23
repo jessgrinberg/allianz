@@ -40,6 +40,10 @@ h2, h4.text-uppercase {
     margin-top: 30px;
 }
 
+h4 {
+    font-size: 16px;
+}
+
 h4.text-uppercase {
     line-height: 24px;
 }
@@ -195,8 +199,8 @@ header h1 {
 }
 
 .nice-ul.bullet li::before{
-    font-size: 36px;
-    line-height: 18px;
+    font-size: 32px;
+    line-height: 16px;    
 }
 
 
