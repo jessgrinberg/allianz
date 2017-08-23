@@ -26,6 +26,13 @@ h2,h3,h4 {
     font-family: Gotham-Medium;
 }
 
+h4 .lighter {
+    font-family: Gotham-Book;
+}
+
+.heavier {
+    font-family: Gotham-Medium
+}
 
 h1 {
     font-family: Gotham-Bold;
@@ -46,10 +53,6 @@ h4.text-uppercase {
 
 p.text-center {
     color: #004d93;
-}
-
-.heavier {
-    font-family: Gotham-Medium;
 }
 
 
@@ -259,6 +262,6 @@ header h1 {
 
 @media (max-width: 320px) {
     .container {
-        padding-top: 75px;
+        padding-top: 50px;
     }
 }
