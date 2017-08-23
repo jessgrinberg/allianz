@@ -128,7 +128,11 @@ header {
 }
 
 header h1 {
-    font-size: 28px;
+    font-size: 24px;
+}
+
+header img {
+    width: 40px;
 }
 
 /*BANNER*/
@@ -196,7 +200,7 @@ header h1 {
 
 .nice-ul.bullet li::before{
     font-size: 32px;
-    line-height: 16px; 
+    line-height: 16px;
 }
 
 
