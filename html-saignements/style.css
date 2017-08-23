@@ -1,0 +1,279 @@
+@font-face {
+    font-family: Gotham-Bold;
+    src: url('fonts/Gotham-Bold.otf');
+}
+
+@font-face {
+    font-family: Gotham-Book;
+    src: url('fonts/Gotham-Book.otf');
+}
+
+@font-face {
+    font-family: Gotham-Medium;
+    src: url('fonts/Gotham-Medium.otf');
+}
+
+body {
+    background-image: url("assets/fotolia_140591721.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 50px;
+    font-family: Gotham-Book;
+}
+
+h2,h3,h4 {
+    font-family: Gotham-Medium;
+}
+
+
+h1 {
+    font-family: Gotham-Bold;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h2, h4.text-uppercase {
+    color: #004d93;
+    margin-top: 30px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h4.text-uppercase {
+    line-height: 24px;
+}
+
+h4 .lighter {
+
+    font-family: Gotham-Book;
+}
+
+h3 {
+    color: #009ca6;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+p.text-center {
+    color: #004d93;
+}
+
+.heavier {
+    font-family: Gotham-Medium;
+}
+
+
+/*NAVBAR*/
+
+.navbar-brand {float:none;}
+
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    padding:0;
+}
+
+.navbar-brand img {
+    margin: 5px auto;
+}
+
+.navbar-toggle {
+    z-index:1;
+}
+
+.navbar-default , .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #009ca6;
+}
+
+.navbar-toggle {
+    border-width: 0px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #222;
+    font-weight: 700;
+}
+
+.navbar-fixed-bottom {
+    border-width: 0px;
+}
+
+.navbar-right {
+    margin-right: 0;
+}
+
+
+/*HEADER*/
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+    background: #004d93;
+    margin: 0;
+    padding: 5px;
+    letter-spacing: 1.2px;
+    color: #FFF;
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+/*BANNER*/
+
+.banner {
+    background-color: rgba(255,255,255,0.9);
+    padding: 10px;
+}
+
+.container {
+    margin-bottom: 15px;
+    padding-top: 45px;
+}
+
+/*BUTTON*/
+.banner a.btn {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    margin: 20px auto;
+    background: rgba(0,0,0,1);
+    color: #fff;
+}
+
+.banner a.btn:hover {
+    background: rgba(0,0,0,.85);
+}
+
+/*LIST*/
+
+.nice-ul {
+	position: relative;
+	padding-left: 32px;
+	list-style-type: none;
+    font-weight: 400;
+}
+
+.nice-ul li {
+	margin-bottom: 8px;
+}
+
+.nice-ul li:not(:last-child)::before,
+.nice-ul li:last-child::before {
+	position: absolute;
+	left: 0;
+	padding: 2px 8px;
+	font-size: 1em;
+	color: #004d93;
+}
+
+.nice-ul.check li::before,
+.nice-ul li:not(:last-child)::before {
+    content: "\2713";
+}
+
+.nice-ul.check li:last-child::before {
+    content: "\2713";
+    margin-bottom: 0;
+}
+
+.nice-ul.bullet-small li::before ,
+.nice-ul.bullet li::before {
+    content: "\2022" !important;
+}
+
+.nice-ul.bullet li::before{
+    font-size: 32px;
+    line-height: 16px;
+}
+
+
+.nice-ul.bullet-small li::before {
+    font-size: 26px;
+    line-height: 16px;
+}
+
+.nice-ul li:last-child::before {
+	margin-bottom: 0;
+    content: "\25BA";
+}
+
+.nice-ol {
+	position: relative;
+	padding-left: 32px;
+	list-style-type: none;
+}
+
+.nice-ol li {
+	counter-increment: step-counter ;
+	margin-bottom: 8px;
+}
+
+.nice-ol li:last-child {
+	margin-bottom: 0;
+}
+
+.nice-ol li::before {
+	content: counter(step-counter) !important;
+	position: absolute;
+	left: 0;
+	padding: 3px 8px;
+	font-size: 0.8em;
+	color: white !important;
+	font-weight: bold;
+	background-color: #009ca6;
+	border-radius: 3px;
+}
+
+
+.video-icon {
+    z-index: 300;
+    position: absolute;
+    width: 60px;
+    top: 10px;
+    left: 10px;
+}
+
+
+@media (min-width: 415px) {
+    .banner a.btn {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 415px) {
+    .video-icon {
+        width: 30px;
+        top: 5px;
+        left: 5px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        padding-top: 75px;
+    }
+}
