@@ -209,33 +209,6 @@ header h1 {
     content: "\25BA";
 }
 
-.nice-ol {
-	position: relative;
-	padding-left: 32px;
-	list-style-type: none;
-}
-
-.nice-ol li {
-	counter-increment: step-counter ;
-	margin-bottom: 8px;
-}
-
-.nice-ol li:last-child {
-	margin-bottom: 0;
-}
-
-.nice-ol li::before {
-	content: counter(step-counter) !important;
-	position: absolute;
-	left: 0;
-	padding: 3px 8px;
-	font-size: 0.8em;
-	color: white !important;
-	font-weight: bold;
-	background-color: #004d93;
-	border-radius: 3px;
-}
-
 .video-icon {
     z-index: 300;
     position: absolute;
