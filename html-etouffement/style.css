@@ -131,9 +131,12 @@ header {
 }
 
 header h1 {
-    font-size: 28px;
+    font-size: 24px;
 }
 
+header img {
+    width: 25px;
+}
 /*BANNER*/
 
 .banner {
@@ -143,7 +146,7 @@ header h1 {
 
 .container {
     margin-bottom: 15px;
-    padding-top: 45px;
+    padding-top: 50px;
 }
 
 /*BUTTON*/
@@ -199,7 +202,7 @@ header h1 {
 
 .nice-ul.bullet li::before{
     font-size: 32px;
-    line-height: 16px; 
+    line-height: 16px;
 }
 
 
