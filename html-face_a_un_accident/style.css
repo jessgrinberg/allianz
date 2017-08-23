@@ -236,12 +236,23 @@ header h1 {
 	border-radius: 3px;
 }
 
+
 .video-icon {
     z-index: 300;
     position: absolute;
     width: 60px;
     top: 10px;
     left: 10px;
+}
+
+@media (min-width: 992px) {
+    .cta {
+        text-align: center;
+    }
+
+    .cta .btn-block {
+        display: inline-block;
+    }
 }
 
 @media (min-width: 415px) {
