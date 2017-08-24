@@ -183,7 +183,8 @@ header img.cardiogram-icon {
     width: 35px;
 }
 
-header img.etouffement-icon{
+header img.etouffement-icon,
+header img.garrot-icon{
     width: 25px;
 }
 
