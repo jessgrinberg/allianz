@@ -186,6 +186,11 @@ header img.cardiogram-icon {
 header img.etouffement-icon{
     width: 25px;
 }
+
+header img.inconscient-icon {
+    width: 40px;
+}
+
 /*BANNER*/
 
 .banner {
