@@ -67,8 +67,7 @@ body {
 
 .navbar-brand {float:none;}
 
-.navbar-brand
-{
+.navbar-brand {
     position: absolute;
     width: 100%;
     left: 0;

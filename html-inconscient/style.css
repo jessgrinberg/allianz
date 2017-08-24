@@ -26,7 +26,6 @@ h2,h3,h4 {
     font-family: Gotham-Medium;
 }
 
-
 h1 {
     font-family: Gotham-Bold;
 }
@@ -60,13 +59,11 @@ p.text-center {
     font-family: Gotham-Medium;
 }
 
-
 /*NAVBAR*/
 
 .navbar-brand {float:none;}
 
-.navbar-brand
-{
+.navbar-brand {
     position: absolute;
     width: 100%;
     left: 0;
@@ -114,7 +111,6 @@ p.text-center {
 .navbar-right {
     margin-right: 0;
 }
-
 
 /*HEADER*/
 
@@ -207,7 +203,6 @@ header img {
     line-height: 16px;
 }
 
-
 .nice-ul.bullet-small li::before {
     font-size: 26px;
     line-height: 16px;
@@ -225,7 +220,6 @@ header img {
     top: 10px;
     left: 10px;
 }
-
 
 @media (min-width: 415px) {
     .banner a.btn {

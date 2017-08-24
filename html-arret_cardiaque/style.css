@@ -26,7 +26,6 @@ h2,h3,h4 {
     font-family: Gotham-Medium;
 }
 
-
 h1 {
     font-family: Gotham-Bold;
 }
@@ -56,13 +55,11 @@ p.text-center {
     font-family: Gotham-Medium;
 }
 
-
 /*NAVBAR*/
 
 .navbar-brand {float:none;}
 
-.navbar-brand
-{
+.navbar-brand {
     position: absolute;
     width: 100%;
     left: 0;
@@ -110,7 +107,6 @@ p.text-center {
 .navbar-right {
     margin-right: 0;
 }
-
 
 /*HEADER*/
 
@@ -240,7 +236,6 @@ header img {
 	background-color: #004d93;
 	border-radius: 3px;
 }
-
 
 .video-icon {
     z-index: 300;
